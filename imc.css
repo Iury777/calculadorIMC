@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    background: rgb(166, 230, 113);
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    
+    
+}
+input{
+    width: 340px;
+    height: 22px;
+    border-radius: 5px;
+   
+}
+button{
+    width: 340px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+#resultado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
