@@ -22,6 +22,9 @@ input{
     border-radius: 5px;
    
 }
+#sbm{
+    cursor: pointer;
+}
 button{
     width: 340px;
     cursor: pointer;
