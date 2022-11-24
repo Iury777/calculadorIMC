@@ -4,31 +4,38 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 body{
-    background: rgb(166, 230, 113);
+    height: 100vh;
+    background: linear-gradient(rgb(204, 182, 182),rgb(126, 218, 126)) ;
+   
 
 }
 
-form{
+form{   
     display: flex;
+    margin-left: 500px;
+    margin-right: 500px;
     flex-direction: column;
     align-items: center;
     margin-top: 30px;
+    border: none;
+    padding: 14px 50px 130px;
     
-    
+    background-color: rgb(35, 182, 126);
+    box-shadow: 3px black;
 }
 input{
-    width: 340px;
+    width: 240px;
     height: 22px;
-    border-radius: 5px;
+    border: none;
    
 }
 #sbm{
     cursor: pointer;
 }
 button{
-    width: 340px;
+    width: 200px;
     cursor: pointer;
-    border-radius: 5px;
+    border: none;
     margin-top: 3px;
 }
 #resultado{
